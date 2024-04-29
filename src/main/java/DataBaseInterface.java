@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class DataBaseInterface extends DataBaseMethods {
     static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/apartments?useUnicode=true&serverTimezone=UTC&useSSL=true&verifyServerCertificate=false";
     static final String DB_USER = "root";
-    static final String DB_PASSWORD = "Area51appdata2003";
+    static final String DB_PASSWORD = "pass";
 
     static Connection conn;
 
